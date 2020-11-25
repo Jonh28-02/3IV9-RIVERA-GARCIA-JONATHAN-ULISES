@@ -24,7 +24,6 @@ public class Programa1{
 
         NOSEQUEPONER.Dinero();
     }
-
     public void Dinero(){
 
         System.out.println("Ingrese su ID");
@@ -46,7 +45,6 @@ public class Programa1{
             EMPLEADO2();
         }
     }
-    
     public void EMPLEADO1(){
         System.out.println("Ingrese la cantidad de horas extra de dia trabajaste ");
         int sueldoextradia1 = entrada.nextInt();
@@ -62,14 +60,12 @@ public class Programa1{
 
         
     }
-
     public void EMPLEADO2(){
         gastos = infonavid + ISR + SGM;
         sueldo = sueldosupervisor - gastos;
 
         TOTAL();
     }
-
     public void TOTAL(){
         System.out.println("El sueldo del empleado "+id+" "+nombredelcliente+" es de: " +sueldo+" $ UnU");
     }
