@@ -1,7 +1,7 @@
 import java.util.*;
-import javax.swing.JOptionPane;
 
-public class SubA extends EXAMEN2{
+
+public class Juegito extends EXAMEN2{
 
     Scanner entrada = new Scanner(System.in);
 
@@ -10,7 +10,7 @@ public class SubA extends EXAMEN2{
     private char letra;
     private int lei;
 
-    public SubA(){
+    public Juegito(){
     }
 
   
