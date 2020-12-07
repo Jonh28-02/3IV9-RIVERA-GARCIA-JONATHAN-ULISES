@@ -63,8 +63,7 @@ public class EXAMEN2{
             System.out.println("La palabra termina con: "+ultimal);
             
             
-        }
-        catch(NullPointerException e){
+        }catch(NullPointerException e){
             System.out.println("Has finalizado este pograma");
             
         }

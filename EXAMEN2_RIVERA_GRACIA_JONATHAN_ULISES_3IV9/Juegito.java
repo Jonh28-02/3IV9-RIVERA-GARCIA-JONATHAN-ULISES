@@ -18,15 +18,17 @@ public class Juegito extends EXAMEN2{
 
     public void prueba(){
 
+        int k = 5;
+        int i = 0;
+        int j = 0;
+
         Eleccion();
         tampal();
 
         char ahorcado[] = new char[GetTampal()-1];
-        //podria hacer palabra.length() pero no se como xd
+    
 
-        int k = 5;
-        int i = 0;
-        int j = 0;
+        
 
         try{
 
